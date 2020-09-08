@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Popular from './components/Popular';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Popular />
   </React.StrictMode>,
   document.getElementById('root')
 );
